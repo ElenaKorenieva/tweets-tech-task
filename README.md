@@ -1,4 +1,4 @@
-## This work wath providet by official Vite v.4.3.9 react template
+## This work was provided by official Vite v.4.3.9 react template
 
 ### [Figma link to template](https://www.figma.com/file/zun1oP6NmS2Lmgbcj6e1IG/Test?node-id=0-1&t=fKfPK1hQF3isHhAC-0)
 
