@@ -6,7 +6,7 @@
 
 ### Technologies used
 
-+React, +ReduxToolkit, +React Router, +ESLint +Prettier +React-select +PropTypes +Sass
+React, ReduxToolkit, React Router, ESLint, Prettier, React-select, PropTypes, Sass
 
 Cteated routers with the use of React Router
 
