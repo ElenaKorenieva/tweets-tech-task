@@ -1,8 +1,10 @@
 .filter-container {
-  width: 100%;
+  width: 50%;
   .filter__control {
     // Styles for the control component
-    background-color: rgb(126, 89, 211);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(45deg, #471ca9, #333);
     border: 2px solid transparent;
     border-radius: 8px;
     cursor: pointer;
@@ -27,11 +29,11 @@
     color: #ebd8ff;
   }
   .filter__menu {
-    background-color: rgb(126, 89, 211);
+    background: linear-gradient(45deg, #471ca9, #333);
   }
   .filter__option {
     // Styles for the option component
-    background-color: rgb(126, 89, 211);
+    background: linear-gradient(45deg, #471ca9, #333);
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
@@ -43,11 +45,11 @@
     text-align: center;
 
     &:hover {
-      background-color: rgba(113, 232, 188, 0.715);
+      background: linear-gradient(45deg, #5c409d, #333);
     }
 
     &--is-selected {
-      background-color: rgba(92, 211, 168, 1);
+      background: linear-gradient(45deg, #a495c6, #333);
       color: white;
     }
   }
