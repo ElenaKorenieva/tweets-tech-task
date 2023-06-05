@@ -1,14 +1,19 @@
+import Home from "./pages/Home";
+import Layout from "./components/Layout/Layout";
+import Tweets from "./pages/Tweets";
 import { Routes, Route } from "react-router-dom";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <>
+      <Header />
       <Routes>
-        <Route path="/" element={<h2>Main page</h2>}>
-          <Route index element={<h2>Main page</h2>} />
-          <Route path="tweets" element={<h2>Tweets</h2>} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="tweets" element={<Tweets />} />
         </Route>
-        <Route path="*" element={<h2>Main page</h2>}></Route>
+        <Route path="*" element={<Home />}></Route>
       </Routes>
     </>
   );
